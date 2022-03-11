@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- font awesome file link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="./style.css"> 
+  <link rel="stylesheet" href="./contact.css"> 
+  <link rel="stylesheet" href="./linha.css"> 
+     
+  <title>SirHtml</title>
+</head>
+<body> 
+     
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><i class="fas fa-magic"></i>SirHtml</a>
+    
+    
+    <div class="fas fa-bars"></div>
+    
+    
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#intro">Sobre</a></li>
+        <li><a href="#grid-one">Grid</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#grid-two">Dicas</a></li> 
+        <li><a href="#table">Table</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    
+    
+    </header>
+    
+    
+    <!-- header section ends --> 
+     
+    <!-- home section starts  -->
+
+<section id="home" class="home">
+
+    <h1 class="banner">Bem vindo! você está no Sir html</h1>
+    <h3 class="presetation">É uma pequena página sem fins lucrativo, para consulta e com algumas informações, sobre HTML e CSS.</h3> 
+    
+    
+    <!-- animation -->
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    
+    <div class="fas fa-cog nut1"></div>
+    <div class="fas fa-cog nut2"></div>
+    
+    
+    </section>
+    
+    
+    <!-- home section ends --> 
+     
+   <!-- Intro --> 
+   <section id="intro" class="intro"> 
+    <h1 class="heading">Sobre</h1>   
+    <div class="row"> 
+    <div class="content">
+      <h2>Introdução</h2>
+      <p>Olá! Dev, você está acompanhando está página, que foi dividida em várias seções e cada uma delas vou te ensinar algo de HTML e CSS.</p>
+      <p>Se você precisar em alguma seção de bloco, pegar o código na inspeção ou necessitar de algo, sinta-se á vontade.</p>
+      <p>Está página, pensei em desenvolver só com elementos de HTML e CSS, porém só usei uma linha de javascript, porque sem uma animação, fica meio estranho na parte do button, porém possui algo de CSS avançado, que seria seletores de CSS, recomendo dar uma olhada na parte de seletores, e para fazer o botão de responsividade, recomendo o uso de Javascript.</p>
+    </div> 
+    </div>
+  </section> 
+   
+  <!-- Intro section ends --> 
+    
+    <!-- Grid section strats --> 
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Grid</h2>
+        <p class="grid-description">Nesta seção, darei três dicas legais para o desenvolvimento de uma boa grid.</p>
+  
+        <div class="grid">
+          <article>
+            <h3>Valores menores que -1 podem ser usados para grid-row-end e grid-column-end</h3>
+            <p>Em muitos exemplos e tutoriais sobre CSS Grid, é possível conhecer a possibilidade de usar grid-column-start: 1 e grid-column-end: -1 (ou a shorthand 1 / -1) para abranger (span) um elemento do primeira até a última linha.
+  
+              Por exemplo, é possível definir grid-column: 1 / -2 para abranger as células entre a primeira e a segunda até a última linha.</p>
+          </article>
+          <article>
+            <h3>Grid-template-areas e linhas nomeadas implícitas</h3>
+            <p>Se for preciso criar templates áreas em uma grid, obter-se automáticamente 4 linhas nomeadas implícitas, 2 nomeando row-start e row-end e 2 para column-start e column-end. Adicionando o sufixo -start ou -end ao nome da área, eles são aplicáveis como qualquer outra linha nomeada.</p>
+          </article>
+          <article>
+            <h3>Como a shorthand grid funciona?</h3>
+            <p>Às vezes, ler e entender código relacionado a CSS Grid pode ser difícil. Por exemplo, ler e entender como usar a forma abreviada (shorthand) de Grid corretamente. Consta na especificação:</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Grid section ends-->  
+     
+   
+   <!-- Gallery section start--> 
+   <h1 id="gallery" class="heading-gallery"> Gallery Com CSS Grid <span> & Flexbox Fallback</span></h1> 
+
+   <p class="text-color">Uma dica, para você Dev, fazer uma gallery, como esta, é fazer o uso de grid e por uma especificidade, e claro, estas imagens são só demonstrações.</p>
+   <div class="gallery">
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+     </div>
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt="sunset behind San Francisco city skyline">
+     </div>
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+     </div>
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+     </div>
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+     </div>
+ 
+     <div class="gallery-item">
+       <img class="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+     </div>
+ 
+   </div>
+ 
+ </div> 
+  
+ <!-- Gallery section ends-->  
+   
+  
+ <!-- Grid-two section strats --> 
+ <section id="grid-two" class="grid-two  section">
+  <div class="main-content grid-two-content">
+    <h2 class="grid-main-heading">Dicas para um iniciante</h2>
+    <p class="grid-description">Aqui ensinarei, dicas para você deixar seu código público, e ferramentas importantes para utilizar.</p>
+
+    <div class="grid">
+      <article>
+        <h3>GitHub</h3>
+        <p>Aposto que já ouviu falar do github, é basicamente uma rede social, para programadores, fora que lá você vai presenciar vários códigos abertos e interessantes de uma comunidade incrível.</p>
+      </article>
+      <article>
+        <h3>Fluxo de git e Git flow</h3>
+        <p>É para programadores é interessante aprender essas duas tecnologias, facilita o dia a dia, forks e estudadas em projetos abertos.</p>
+      </article>
+      <article>
+        <h3>Netlify</h3>
+        <p>Às vezes, ler e entender código relacionado a CSS Grid pode ser difícil. Por exemplo, ler e entender como usar a forma abreviada (shorthand) de Grid corretamente.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- Grid-two section ends-->  
+   
+<!-- Table --> 
+ 
+<section id="table" class="intro"> 
+  <h1 class="heading">Table</h1>  
+  <p class="text-table">Não é segredo que table é muito importante, dependendo do conteúdo que está fazendo.</p>
+  <p class="text-table">Esta table abaixo é para preço, ou melhor dizer é uma estrutura de tabela de preço, muito bom o uso dela para o dev que pensa, em utilizar em um site comercial ou de serviços.</p>   
+  <title>Pricing Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="pricing-table">
+                <div class="pricing-header">
+                    <h3>Heading</h3>
+                </div>
+                <div class="price-value">
+                    <span class="amount">$27</span>
+                    <span class="time">per month</span>
+                </div>
+                <div class="pricingContent">
+                    <ul>
+                        <li>150GB Storage</li>
+                        <li>24/7 Support</li>
+                        <li>7 Hosts Domain</li>
+                        <li>12 Accounts</li>
+                        <li>SSL</li>
+                    </ul>
+                </div>
+                <div class="purchase">
+                    <a href="">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+            <div class="pricing-table">
+                <div class="pricing-header">
+                    <h3>Heading</h3>
+                </div>
+                <div class="price-value">
+                    <span class="amount">$42</span>
+                    <span class="time">per month</span>
+                </div>
+                <div class="pricingContent">
+                    <ul>
+                      <li>1TB Storage</li>
+                      <li>24/7 Support</li>
+                      <li>20 Hosts Domain</li>
+                      <li>50 Accounts</li>
+                      <li>SSL</li>
+                    </ul>
+                </div>
+                <div class="purchase">
+                    <a href="">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+   
+<!-- Table section ends -->  
+ 
+
+<!-- Contact --> 
+ 
+<h1 class="text-footer1">Contato</h1>  
+<p class="text-footer2">Estou muito feliz em ter terminado o meu primeiro projeto de estrutura, espero que tenha gostado dessa simples, landing page, front-end apenas, logo desenvolverei mais projetos.</p>
+
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="Envoyer" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div> 
+   
+  <p class="text-footer">@<a class="link" href="https://www.linkedin.com/in/augustootavio" target="blank">Feito por Otávio Augusto</a>.</p>
+
+<!-- jquery file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ 
+<!-- custom js file link  -->
+
+<script src="./main.js"></script>
+
+
+</body> 
+ 
+
+</html>
